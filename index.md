@@ -4,7 +4,8 @@ title: Home
 ---
 
 <div style="text-align: center;">
-<pre style="color: #00ff00; font-weight: bold; display: inline-block; font-family: monospace; line-height: 1;">
+<pre style="color:#00ff00;font-weight:bold;display:inline-block;font-family:monospace;line-height:1;overflow-x:hidden;max-width:100%;">
+
 <span data-scramble="                             _ 
  _ __ ___ ____  _ __ ___  __| |
 | '__/ _ \_  / | '__/ _ \/ _` |

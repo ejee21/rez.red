@@ -1,0 +1,4 @@
+pre {
+  overflow-x: hidden;  /* hides horizontal scrollbar */
+  white-space: pre;    /* keeps ASCII spacing intact */
+}
