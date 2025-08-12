@@ -1,6 +1,6 @@
 ﻿(() => {
   const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-  function scramble(el, finalText, speed=24, step=1/3) {
+  function scramble(el, finalText, speed=100, step=1/3) {
     let i = 0, id;
     clearInterval(el._scrambleId);
     id = setInterval(() => {
