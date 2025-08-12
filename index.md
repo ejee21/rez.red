@@ -3,15 +3,17 @@ layout: default
 title: Home
 ---
 
-<pre style="color: #00ff00; font-weight: bold;">
+<div style="text-align: center;">
+<pre style="color: #00ff00; font-weight: bold; display: inline-block;">
                              _ 
  _ __ ___ ____  _ __ ___  __| |
 | '__/ _ \_  / | '__/ _ \/ _` |
 | | |  __// / _| | |  __/ (_| |
 |_|  \___/___(_)_|  \___|\__,_|
-                                            
-		r e z . r e d
+                                          
+ <span data-scramble="r e z . r e d">r e z . r e d</span>
 </pre>
+</div>
 
 # whoami
 
@@ -24,3 +26,5 @@ This site will serve as a place to share write-ups, notes, and resources from my
 ---
 
 [Check out my Blog →](/blog)
+
+<script src="/assets/js/hacker-scramble.js"></script>
