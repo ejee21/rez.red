@@ -52,3 +52,15 @@ defaults:
 plugins:
   - jekyll-redirect-from
   # - jekyll-paginate   # uncomment if you use the paginate settings above
+
+exclude:
+  - vendor
+  - vendor/bundle
+  - vendor/ruby
+  - node_modules
+  - _site
+  - .jekyll-cache
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - .github
