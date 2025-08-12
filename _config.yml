@@ -1,10 +1,54 @@
 ﻿title: "rez.red"
 description: "Landing Page"
 theme: jekyll-theme-hacker
+github:
+  is_project_page: false
 
-url: "https://rez.red"   # custom domain at root
-baseurl: ""              # empty for root
+url: "https://rez.red"
+baseurl: ""
 repository: ejee21/rez.red
+
+# Site basics
+timezone: America/New_York
+permalink: /blog/:year/:month/:day/:title/
+
+# Markdown / code style
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
+
+# Cleaner builds
+exclude:
+  - _site
+  - .jekyll-cache
+  - .sass-cache
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - .github
+
+# Defaults so you don’t repeat front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Elijah
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+# Optional: pagination (if you want /blog paged lists later)
+# paginate: 10
+# paginate_path: "/blog/page:num"
 
 plugins:
   - jekyll-redirect-from
+  # - jekyll-paginate   # uncomment if you use the paginate settings above
