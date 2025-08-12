@@ -5,7 +5,12 @@ title: Home
 
 <div style="text-align: center;">
 <pre style="color: #00ff00; font-weight: bold; display: inline-block;">
- <span data-scramble="r e z . r e d">                             _ 
+ <span data-scramble="                             _ 
+ _ __ ___ ____  _ __ ___  __| |
+| '__/ _ \_  / | '__/ _ \/ _` |
+| | |  __// / _| | |  __/ (_| |
+|_|  \___/___(_)_|  \___|\__,_|
+                                          ">                             _ 
  _ __ ___ ____  _ __ ___  __| |
 | '__/ _ \_  / | '__/ _ \/ _` |
 | | |  __// / _| | |  __/ (_| |
