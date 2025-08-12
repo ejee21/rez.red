@@ -4,32 +4,27 @@ title: Home
 ---
 
 <div style="text-align: center;">
-<pre style="color:#00ff00;font-weight:bold;display:inline-block;font-family:monospace;line-height:1;overflow-x:hidden;max-width:100%;">
-<span style="display:inline-block;width:40ch;text-align:left;">
+<pre style="color: #00ff00; font-weight: bold; display: inline-block;">
                              _ 
  _ __ ___ ____  _ __ ___  __| |
 | '__/ _ \_  / | '__/ _ \/ _` |
 | | |  __// / _| | |  __/ (_| |
 |_|  \___/___(_)_|  \___|\__,_|
-</span>
+                                          
+ <span data-scramble="r e z . r e d">r e z . r e d</span>
 </pre>
 </div>
 
 # whoami
-Elijah; offensive security professional specializing in red team operations. Focused on identifying and exploiting weaknesses in networks, applications, and people to improve security posture.
 
-A recent college graduate with hands-on experience in penetration testing, network exploitation, web application testing, and social engineering.
-Current studies focus on Python development, exploit development, and internal network penetration testing.
+My name is Elijah. I work in offensive security with a focus on red team operations.  
+I started out as a penetration tester, gaining experience in network, application, and social engineering engagements.  
+Currently, I’m a Red Team Analyst, responsible for simulating real-world adversaries to test and improve organizational defenses.  
 
-Skilled in Active Directory exploitation, privilege escalation, phishing, defensive evasion, and building custom tooling for reconnaissance and enumeration.
-Regularly competes in Capture the Flag competitions, with an emphasis on realistic attack paths and post-exploitation scenarios.
-
-Currently preparing for the OSCP and CPTS certifications to further strengthen capabilities in advanced offensive security operations.
-
-This site serves as a central place for blog posts, research notes, and shared information related to offensive security.
+This site will serve as a place to share write-ups, notes, and resources from my work and research.
 
 ---
 
 [Check out my Blog →](/blog)
 
-<script src="{{ '/assets/js/hacker-scramble.js' | relative_url }}?v=2"></script>
+<script src="/assets/js/hacker-scramble.js"></script>
