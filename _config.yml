@@ -5,3 +5,6 @@ theme: jekyll-theme-hacker
 url: "https://rez.red"   # custom domain at root
 baseurl: ""              # empty for root
 repository: ejee21/rez.red
+
+plugins:
+  - jekyll-redirect-from
